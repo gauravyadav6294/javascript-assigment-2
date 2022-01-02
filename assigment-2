@@ -1,0 +1,62 @@
+// code-1 take 3 inputs from the user and show minimum of three.
+
+var a=prompt("enter number");
+a=parseInt(a);
+var b=prompt("enter a number");
+b=parseInt(b);
+var c=prompt("enter a number");
+c=parseInt(c);
+
+if(a>b){
+   if(a>c){
+       console.log(c);
+   }
+    else{
+        console.log(b);
+    }
+}
+
+else{
+    if(b>c){
+        console.log(c);
+    }
+    else{
+        console.log(b)
+    }
+}
+
+// code-2 check wheather a given chracter is vowel or not(check also for capital characters).
+
+var char=prompt("Enter a chracter");
+
+switch(char){
+    case'a':
+    case'A':
+    alert("it is a vowel");
+    break;
+
+    case'e':
+    case'E':
+    alert("it is a vowel");
+    break;
+
+    case'i':
+    case'I':
+    alert("it is a vowel");
+    break;
+
+    case'o':
+    case'O':
+    alert("it is a vowel");
+    break;
+
+    case'u':
+    case'U':
+    alert("it is a vowel");
+    break;
+
+    default:
+        alert("it is a consent");
+        break;
+    
+}
